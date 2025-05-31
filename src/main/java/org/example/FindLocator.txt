@@ -1,0 +1,110 @@
+1. Đường dẫn: https://accounts.saucelabs.com/am/XUI/#login/
+
+Logo:
+        //img[contains(@class,'logo')]
+
+Tiêu đề
+        //h3[text()='Sign in']
+
+User Name:
+        //span[text()='User Name']
+        //input[@id='idToken1']
+
+Password:
+        //span[text()='Password']
+        //input[@id='idToken2']
+
+Remember:
+        //label[contains(text(),'Remember')]
+        //label[contains(text(),'Remember')]//span
+
+forgot pw:
+        //a[contains(text(),'forgot')]
+
+login:
+        //input[@id='loginButton_0']
+
+or sign in with:
+        //p[contains(text(),'or sign ')]
+        //a[contains(@title,'Google')]
+        //a[contains(@title,'Git')]
+        //a[contains(@title,'SSO')]
+
+Not a customer:
+        //span[contains(text(),'Not')]
+
+Try:
+        //span[contains(text(),'Not')]//a
+
+Banner:
+        //img[contains(@class,'banner')]
+
+======================================================================================
+
+2. Đường dẫn https://saucelabs.com/request-demo
+
+Header
+        //div[contains(@class,'MuiToolbar')]//img[contains(@src,'logo-black')]
+        //div[contains(@class,'MuiToolbar')]//span[text()='Products']
+        //div[contains(@class,'MuiToolbar')]//span[text()='Solutions']
+        //div[contains(@class,'MuiToolbar')]//span[text()='Pricing']
+        //div[contains(@class,'MuiToolbar')]//span[text()='Developers']
+        //div[contains(@class,'MuiToolbar')]//span[text()='Resources']
+
+        //button[text()='Sign in']
+        //button[text()='Request a demo']
+        //button[text()='Try it free']
+        //button[contains(@class,'1xv7kbw')]
+
+Home > Request
+        //span[contains(text(),'Home')]
+        //div[contains(@class,"css-64v5y1")]
+        //span[contains(text(),'Request')]
+
+Body
+        //h1
+        //h2[contains(text(),'Talk')]
+        //p[contains(text(),'We')]
+        //img[contains(@src,'Meet')]
+        //button[contains(@class,'MuiIconButton-colorDark')]
+
+        //span[contains(text(),'Book')]
+        //label[contains(@id,'Email')]
+        //input[contains(@id,'Email')]
+        //label[contains(@id,'Company')]
+        //input[contains(@id,'Com')]
+        //label[contains(@id,'Interest')]
+        //select[contains(@id,'Interest')]
+        //label[contains(@id,'Comments')]
+        //textarea[contains(@id,'Comments')]
+        //input[contains(@id,'Checkbox')]
+        //label[contains(@id,'Checkbox')]
+        //a[contains(text(),'Privacy')]
+        //button[contains(text(),'Let')]
+
+        //h2[contains(text(),'Tr')]
+        //div[contains(@class,'MuiStack')]//img[contains(@alt,'logo')]
+
+Footer
+        //img[contains(@src,'footer-logo')]
+        //img[@alt='quote']
+        //div[contains(@class,'70ca4w')]//span[contains(text(),'Products')]
+        //div[contains(@class,'70ca4w')]//span[contains(text(),'Platform for')]
+        //div[contains(@class,'70ca4w')]//span[contains(text(),'Global')]
+        //div[contains(@class,'70ca4w')]//span[contains(text(),'Performance')]
+        //div[contains(@class,'70ca4w')]//span[contains(text(),'Set up')]
+        //div[contains(@class,'70ca4w')]//span[contains(text(),'Integrations')]
+        //div[contains(@class,'70ca4w')]//span[text()='Resources']
+        //div[contains(@class,'70ca4w')]//span[contains(text(),'Resources ')]
+        //div[contains(@class,'70ca4w')]//span[text()='Company']
+        //div[contains(@class,'70ca4w')]//span[text()='About us']
+
+        //img[@alt='Twitter']
+        //img[@alt='Facebook']
+        //img[@alt='LinkedIn']
+        //span[contains(text(),'Terms')]
+        //span[contains(text(),'Privacy')]
+        //span[contains(text(),'EE')]
+        //span[contains(text(),'CC')]
+        //a[contains(text(),'Cookies')]
+        //span[contains(text(),'2025')]
