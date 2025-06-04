@@ -12,6 +12,7 @@ public class GetCurrentUrl {
         // mở website
         driver.get("https://saucelabs.com/");
         // điều hướng trang
+
         driver.navigate().to("https://www.google.com/");
         // quay lại trang trước
     //    driver.navigate().back();
