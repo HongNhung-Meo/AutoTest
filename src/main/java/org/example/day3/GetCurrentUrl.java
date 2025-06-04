@@ -17,7 +17,7 @@ public class GetCurrentUrl {
         // quay lại trang trước
     //    driver.navigate().back();
         // tiến tới trang cũ, sau khi back
-        driver.navigate().forward();
+    //    driver.navigate().forward();
         driver.navigate().refresh();
 
         driver.close();
