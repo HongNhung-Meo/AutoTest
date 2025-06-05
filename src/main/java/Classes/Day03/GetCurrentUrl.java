@@ -1,4 +1,4 @@
-package org.example.day3;
+package Classes.Day03;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,13 +12,15 @@ public class GetCurrentUrl {
         // mở website
         driver.get("https://saucelabs.com/");
         // điều hướng trang
-
         driver.navigate().to("https://www.google.com/");
         // quay lại trang trước
-    //    driver.navigate().back();
+//        driver.navigate().back();
         // tiến tới trang cũ, sau khi back
-        driver.navigate().forward();
-        driver.navigate().refresh();
+//        driver.navigate().forward();
+//        driver.navigate().refresh();
+
+        String url = driver.getCurrentUrl();
+        System.out.println("String url la: " + url);
 
         driver.close();
     }
