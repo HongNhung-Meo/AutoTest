@@ -23,12 +23,12 @@ public class RightClickExampleTest {
         option.click();
         Thread.sleep(3000);
 
-        // xử lý cảnh báo xuất hiện sau double-Click
+        // xử lý cảnh báo xuất hiện sau right-Click
         String alertText = driver.switchTo().alert().getText();
         System.out.println("Alert text after right-Click: " + alertText);
 
         // đóng alert
-        driver.switchTo().alert().dismiss();
+        driver.switchTo().alert().accept();
         Thread.sleep(3000);
 
 
