@@ -51,7 +51,7 @@ public class CheckoutSuccessTest {
             driver.findElement(By.className("shopping_cart_link")).click();
 
 // EXPECT 1: hiển thị đúng 2 sản phẩm với tên và giá tiền đúng
-            Items();
+            verifyCartItems(2);
 
 // EXPECT 2: Màn hình có hiển thị 2 button Remove
             List<WebElement> removeBtn = driver.findElements(By.xpath("//button[text()='Remove']"));
@@ -71,7 +71,7 @@ public class CheckoutSuccessTest {
             wait.until(ExpectedConditions.elementToBeClickable(By.id("continue"))).click();
 
 // EXPECT 1: Danh sách sản phẩm hiển thị lại đúng
-            Items();
+            verifyCartItems(2);
 
 // EXPECT 2: Shipping info
             WebElement shippingInfo = driver.findElement(By.xpath("//div[contains(text(),'Free Pony')]"));
@@ -123,17 +123,17 @@ public class CheckoutSuccessTest {
             driver.quit();
         }
     }
-    public static void Items() {
-        List<WebElement> overviewItems = driver.findElements(By.className("cart_item"));
-        if (overviewItems.size() == 2) {
-            System.out.println("Có 2 sản phẩm trong giỏ hàng");
-            for (WebElement item : overviewItems) {
+    public static void verifyCartItems(int expectedCount) {
+        List<WebElement> items = driver.findElements(By.className("cart_item"));
+        if (items.size() == expectedCount) {
+            System.out.println("Có " + expectedCount +" sản phẩm trong giỏ hàng");
+            for (WebElement item : items) {
                 String name = item.findElement(By.className("inventory_item_name")).getText();
                 String price = item.findElement(By.className("inventory_item_price")).getText();
                 System.out.println("Sản phẩm: " + name + ", giá: " + price);
             }
         } else {
-            System.out.println("Không có đúng 2 sản phẩm trong giỏ" + overviewItems.size());
+            System.out.println("Số lượng sản phẩm không đúng. Thấy: " + items.size());
         }
     }
 }
