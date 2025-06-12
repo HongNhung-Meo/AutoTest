@@ -25,8 +25,8 @@ public class ExplicitwaitExampleTest {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
             // chờ và tìm phần tử email
-            WebElement firstNameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Email1")));
-            firstNameField.sendKeys("meo@gmail.com");
+            WebElement emailField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Email1")));
+            emailField.sendKeys("meo@gmail.com");
 
             // chờ và tìm nút submit
             WebElement submitButton = wait.until(ExpectedConditions.elementToBeClickable(By.className("mktoButton")));
