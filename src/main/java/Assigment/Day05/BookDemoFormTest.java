@@ -24,7 +24,7 @@ public class BookDemoFormTest {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
         try {
             for (Map<String, String> rowData : excelData) {
@@ -70,6 +70,11 @@ public class BookDemoFormTest {
 
                 WebElement submitButton = wait.until(ExpectedConditions.elementToBeClickable(By.className("mktoButton")));
                 submitButton.click();
+
+                WebElement thankYouMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[text()='THANK YOU']")));
+                System.out.println("Thông báo: " + thankYouMessage.getText());
+                System.out.println("Đang ở trang: " + driver.getCurrentUrl());
+
             }
         } catch (Exception e) {
             System.out.println("Lỗi khi tìm phần tử thao tác: " + e.getMessage());
@@ -77,7 +82,5 @@ public class BookDemoFormTest {
         } finally {
             driver.quit();
         }
-
     }
-
 }
