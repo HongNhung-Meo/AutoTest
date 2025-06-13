@@ -8,10 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ExcelUntils {
     public static List<Map<String, String>> readExcelData(String filePath, String sheetName) {
@@ -39,7 +36,7 @@ public class ExcelUntils {
                 Row row = sheet.getRow(i);
                 if (row == null) continue; // Bỏ qua hàng trống
 
-                Map<String, String> rowData = new HashMap<>();
+                Map<String, String> rowData = new LinkedHashMap<>();
                 boolean hasValue = false; // Biến kiểm tra xem hàng có giá trị không
                 for (int j = 0; j < colCount; j++) {
                     String columnHeader = dataFormatter.formatCellValue(headerRow.getCell(j)).trim();

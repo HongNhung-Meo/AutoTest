@@ -12,7 +12,7 @@ public class FindElement {
         // mở website
         driver.get("https://saucelabs.com/request-demo");
 // Find element
-//  Tìm text tuyệt đối
+//  Tìm text tuyệt đối  thẻ <a>
 //        WebElement element = driver.findElement(By.linkText("Try it free"));
 //        element.click();
 

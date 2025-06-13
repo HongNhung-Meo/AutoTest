@@ -28,59 +28,68 @@ public class BookDemoFormTest {
 
         try {
             for (Map<String, String> rowData : excelData) {
-                System.out.println("Dữ liệu hàng: " + rowData);
-                String email = rowData.get("Business Email");
-                String firstName = rowData.get("First Name");
-                String lastName = rowData.get("Last Name");
-                String company = rowData.get("Company");
-                String phoneNumber = rowData.get("Phone Number");
-                String country = rowData.get("Country");
-                String interest = rowData.get("Interest");
-                String comments = rowData.get("Comments");
-                driver.get("https://saucelabs.com/request-demo");
+                try {
+                    System.out.println("Dữ liệu hàng: " + rowData);
+                    String email = rowData.get("Business Email");
+                    String firstName = rowData.get("First Name");
+                    String lastName = rowData.get("Last Name");
+                    String company = rowData.get("Company");
+                    String phoneNumber = rowData.get("Phone Number");
+                    String country = rowData.get("Country");
+                    String interest = rowData.get("Interest");
+                    String comments = rowData.get("Comments");
+                    driver.get("https://saucelabs.com/request-demo");
 
-                WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Email")));
-                emailInput.sendKeys(email);
+                    WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Email")));
+                    emailInput.clear();
+                    emailInput.sendKeys(email);
 
-                WebElement firstNameInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("FirstName")));
-                firstNameInput.sendKeys(firstName);
+                    WebElement firstNameInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("FirstName")));
+                    firstNameInput.clear();
+                    firstNameInput.sendKeys(firstName);
 
-                WebElement lastNameInput = driver.findElement(By.id("LastName"));
-                lastNameInput.sendKeys(lastName);
+                    WebElement lastNameInput = driver.findElement(By.id("LastName"));
+                    lastNameInput.clear();
+                    lastNameInput.sendKeys(lastName);
 
-                WebElement companyInput = driver.findElement(By.id("Company"));
-                companyInput.sendKeys(company);
+                    WebElement companyInput = driver.findElement(By.id("Company"));
+                    companyInput.clear();
+                    companyInput.sendKeys(company);
 
-                WebElement phoneInput = driver.findElement(By.id("Phone"));
-                phoneInput.sendKeys(phoneNumber);
+                    WebElement phoneInput = driver.findElement(By.id("Phone"));
+                    phoneInput.clear();
+                    phoneInput.sendKeys(phoneNumber);
 
-                WebElement countrySelect = driver.findElement(By.id("Country"));
-                Select countryDropdown = new Select(countrySelect);
-                countryDropdown.selectByVisibleText(country);
+                    selectDropdown(driver, "Country", country);
 
-                WebElement interestSelect = driver.findElement(By.id("Solution_Interest__c"));
-                Select interestDropdown = new Select(interestSelect);
-                interestDropdown.selectByVisibleText(interest);
+                    selectDropdown(driver, "Solution_Interest__c", interest);
 
-                WebElement commentsInput = driver.findElement(By.id("Sales_Contact_Comments__c"));
-                commentsInput.sendKeys(comments);
+                    WebElement commentsInput = driver.findElement(By.id("Sales_Contact_Comments__c"));
+                    commentsInput.clear();
+                    commentsInput.sendKeys(comments);
 
-                WebElement checkbox = driver.findElement(By.id("mktoCheckbox_46340_0"));
-                checkbox.click();
+                    WebElement checkbox = driver.findElement(By.id("mktoCheckbox_46340_0"));
+                    checkbox.click();
 
-                WebElement submitButton = wait.until(ExpectedConditions.elementToBeClickable(By.className("mktoButton")));
-                submitButton.click();
+                    WebElement submitButton = wait.until(ExpectedConditions.elementToBeClickable(By.className("mktoButton")));
+                    submitButton.click();
 
-                WebElement thankYouMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[text()='THANK YOU']")));
-                System.out.println("Thông báo: " + thankYouMessage.getText());
-                System.out.println("Đang ở trang: " + driver.getCurrentUrl());
+                    WebElement thankYouMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[text()='THANK YOU']")));
+                    System.out.println("Thông báo: " + thankYouMessage.getText());
+                    System.out.println("Đang ở trang: " + driver.getCurrentUrl());
 
+                } catch (Exception e) {
+                    System.out.println("Lỗi khi tìm phần tử thao tác: " + e.getMessage());
+                }
             }
-        } catch (Exception e) {
-            System.out.println("Lỗi khi tìm phần tử thao tác: " + e.getMessage());
-
         } finally {
             driver.quit();
         }
+    }
+
+    public static void selectDropdown(WebDriver driver, String elementId, String visibleText) {
+        WebElement dropDownElement = driver.findElement(By.id(elementId));
+        Select dropDown = new Select(dropDownElement);
+        dropDown.selectByVisibleText(visibleText);
     }
 }
