@@ -43,4 +43,13 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.3.1</version>  <!-- bản ổn định mới nhất -->
+            </plugin>
+        </plugins>
+    </build>
 </project>

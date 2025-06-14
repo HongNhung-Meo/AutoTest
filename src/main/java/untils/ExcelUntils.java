@@ -40,7 +40,10 @@ public class ExcelUntils {
                 boolean hasValue = false; // Biến kiểm tra xem hàng có giá trị không
                 for (int j = 0; j < colCount; j++) {
                     String columnHeader = dataFormatter.formatCellValue(headerRow.getCell(j)).trim();
-                    String cellValue = dataFormatter.formatCellValue(row.getCell(j)).trim();
+                    String cellValue = "";
+                    if (row.getCell(j) != null) {
+                       cellValue = dataFormatter.formatCellValue(row.getCell(j)).trim();
+                    }
                     if (!cellValue.isEmpty()) {
                         hasValue = true; // Phát hiện hàng có ít nhất một giá trị không rỗng
                     }
