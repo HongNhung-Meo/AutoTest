@@ -45,27 +45,13 @@ public class RequestDemoTest {
 
         for (int i = 0; i < excelData.size(); i++) {
             Map<String, String> row = excelData.get(i);
-            data[i] = new Object[] {
-                row.get("Business Email"),
-                row.get("First Name"),
-                row.get("Last Name"),
-                row.get("Company"),
-                row.get("Phone Number"),
-                row.get("Country"),
-                row.get("State"),
-                row.get("Interest"),
-                row.get("Comments"),
-                Boolean.parseBoolean(row.get("Checkbox")),
-                row.get("ExpectedResult"),
-                row.get("ExpectedErrorMessage")
-            };
+            data[i] = new Object[]{row.get("Business Email"), row.get("First Name"), row.get("Last Name"), row.get("Company"), row.get("Phone Number"), row.get("Country"), row.get("State"), row.get("Interest"), row.get("Comments"), Boolean.parseBoolean(row.get("Checkbox")), row.get("ExpectedResult"), row.get("ExpectedErrorMessage")};
         }
         return data;
     }
 
     @Test(dataProvider = "formData")
-    public void testForm(String email, String firstName, String lastName, String company, String phone,
-                         String country, String state, String interest,String comment, boolean checkbox, String expectedResult, String expectedErrorMsg) {
+    public void testForm(String email, String firstName, String lastName, String company, String phone, String country, String state, String interest, String comment, boolean checkbox, String expectedResult, String expectedErrorMsg) {
         // check title & URL đầu trang
         Assert.assertEquals(driver.getTitle(), "Request a Sauce Labs Demo", "Title mismatch!");
         Assert.assertEquals(driver.getCurrentUrl(), "https://saucelabs.com/request-demo", "URL mismatch!");
@@ -89,8 +75,7 @@ public class RequestDemoTest {
         WebElement interestDropdown = driver.findElement(By.id("Solution_Interest__c"));
         WebElement commentInput = driver.findElement(By.id("Sales_Contact_Comments__c"));
 
-        List<WebElement> fields = List.of(emailInput, firstNameInput, lastNameInput, phoneInput,
-                countryDropdown, interestDropdown, commentInput, submitButton);
+        List<WebElement> fields = List.of(emailInput, firstNameInput, lastNameInput, phoneInput, countryDropdown, interestDropdown, commentInput, submitButton);
         for (WebElement field : fields) {
             Assert.assertTrue(field.isDisplayed(), field.getAttribute("id") + "not displayed!");
         }
@@ -119,8 +104,7 @@ public class RequestDemoTest {
         // kiểm tra checkbox
         if (shouldShowCheckbox) {
             try {
-                WebElement checkboxLabel = wait.until(ExpectedConditions.presenceOfElementLocated(
-                        By.cssSelector("label[for='mktoCheckbox_46340_0']")));
+                WebElement checkboxLabel = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("label[for='mktoCheckbox_46340_0']")));
                 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", checkboxLabel);
                 wait.until(ExpectedConditions.elementToBeClickable(checkboxLabel));
 
@@ -132,7 +116,6 @@ public class RequestDemoTest {
                 Assert.fail("Checkbox expected but not found or clickable.");
             }
         }
-
         submitButton.click();
 
         //kiểm tra theo kì vọng
@@ -148,12 +131,10 @@ public class RequestDemoTest {
             Assert.assertTrue(isThankYouPage, "Expected success, but not redirected to thank you page!");
 
             String actualURL = driver.getCurrentUrl();
-            Assert.assertEquals(actualURL, "https://saucelabs.com/thank-you-contact?concierge=true",
-                    "Form submission failed when expected to succeed!");
+            Assert.assertEquals(actualURL, "https://saucelabs.com/thank-you-contact?concierge=true", "Form submission failed when expected to succeed!");
 
             WebElement thankYouMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[text()='THANK YOU']")));
             Assert.assertTrue(thankYouMessage.isDisplayed(), "Thank You message not displayed!");
-
         } else {
             // Trường hợp form thiếu vaslidate
             boolean uiBug = false;
@@ -180,12 +161,12 @@ public class RequestDemoTest {
                     uiBug = true;
                 }
             }
-
             if (uiBug) {
                 Assert.fail("Form submitted or error message missing when it should have failed!");
             }
         }
     }
+
     private void fillInput(WebElement element, String value) {
         element.clear();
         element.sendKeys(value);
@@ -205,7 +186,7 @@ public class RequestDemoTest {
 
     @AfterMethod
     public void tearDown() {
-        if (driver!= null) {
+        if (driver != null) {
             driver.quit();
         }
     }
