@@ -1,4 +1,4 @@
-package Assigment.Day03;
+package assignment.Day03;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,11 +10,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class Case02 {
-    public static void main(String[] args) throws InterruptedException {
+public class Case01 {
+    public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://saucelabs.com/request-demo");
+        System.out.println("Title: " + driver.getTitle());
+        System.out.println("URL: " + driver.getCurrentUrl());
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 
@@ -39,9 +41,9 @@ public class Case02 {
         Select selectCountry = new Select(country);
         selectCountry.selectByVisibleText("Vietnam");
 
-//        WebElement interest = driver.findElement(By.id("Solution_Interest__c"));
-//        Select selectInterest = new Select(interest);
-//        selectInterest.selectByVisibleText("Visual Testing");
+        WebElement interest = driver.findElement(By.id("Solution_Interest__c"));
+        Select selectInterest = new Select(interest);
+        selectInterest.selectByVisibleText("Visual Testing");
 
         WebElement comments = driver.findElement(By.id("Sales_Contact_Comments__c"));
         comments.sendKeys("Testing");
@@ -51,15 +53,6 @@ public class Case02 {
 
         WebElement button = driver.findElement(By.className("mktoButton"));
         button.click();
-
-        Thread.sleep(3000);
-
-        try {
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("ValidMsgSolution_Interest__c")));
-            System.out.println("Trường Interest chưa chọn");
-        } catch (Exception e) {
-            System.out.println("Không có thông báo lỗi");
-        }
 
         driver.quit();
     }

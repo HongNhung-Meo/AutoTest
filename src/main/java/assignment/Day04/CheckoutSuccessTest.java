@@ -1,4 +1,4 @@
-package Assigment.Day04;
+package assignment.Day04;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package Assigment.Day05;
+package assignment.Day05;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -76,7 +76,7 @@ public class BookDemoFormTest {
 
                     WebElement thankYouMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[text()='THANK YOU']")));
                     System.out.println("Thông báo: " + thankYouMessage.getText());
-                    System.out.println("Đang ở trang: " + driver.getCurrentUrl());
+                    System.out.println("Đang ở trang: " + driver.getTitle());
 
                 } catch (Exception e) {
                     System.out.println("Lỗi khi tìm phần tử thao tác: " + e.getMessage());
