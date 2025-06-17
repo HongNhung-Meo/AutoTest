@@ -1,225 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="29" passed="24" failed="5" skipped="0">
+<testng-results ignored="0" total="19" passed="14" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-16T22:12:00 ICT" name="Surefire suite" finished-at="2025-06-16T22:21:20 ICT" duration-ms="560219">
+  <suite started-at="2025-06-17T12:20:27 ICT" name="Surefire suite" finished-at="2025-06-17T12:28:50 ICT" duration-ms="502705">
     <groups>
     </groups>
-    <test started-at="2025-06-16T22:12:00 ICT" name="Surefire test" finished-at="2025-06-16T22:21:20 ICT" duration-ms="560219">
-      <class name="feature.Day06.LoginMultiCaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:feature.Day06.LoginMultiCaseTest@670002]" started-at="2025-06-16T22:21:00 ICT" name="setUp" finished-at="2025-06-16T22:21:01 ICT" duration-ms="1120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithEmptyUsername()[pri:0, instance:feature.Day06.LoginMultiCaseTest@670002]" started-at="2025-06-16T22:21:01 ICT" name="testLoginWithEmptyUsername" finished-at="2025-06-16T22:21:03 ICT" duration-ms="1563" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithEmptyUsername -->
-        <test-method signature="testLoginWithInvalidPassword()[pri:0, instance:feature.Day06.LoginMultiCaseTest@670002]" started-at="2025-06-16T22:21:03 ICT" name="testLoginWithInvalidPassword" finished-at="2025-06-16T22:21:03 ICT" duration-ms="258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithInvalidPassword -->
-        <test-method signature="testLoginWithInvalidUsername()[pri:0, instance:feature.Day06.LoginMultiCaseTest@670002]" started-at="2025-06-16T22:21:03 ICT" name="testLoginWithInvalidUsername" finished-at="2025-06-16T22:21:03 ICT" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithInvalidUsername -->
-        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:feature.Day06.LoginMultiCaseTest@670002]" started-at="2025-06-16T22:21:03 ICT" name="testLoginWithValidCredentials" finished-at="2025-06-16T22:21:03 ICT" duration-ms="284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feature.Day06.LoginMultiCaseTest@670002]" started-at="2025-06-16T22:21:03 ICT" name="tearDown" finished-at="2025-06-16T22:21:04 ICT" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- feature.Day06.LoginMultiCaseTest -->
-      <class name="feature.Day06.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:feature.Day06.LoginTest@49c386c8]" started-at="2025-06-16T22:21:18 ICT" name="setUp" finished-at="2025-06-16T22:21:19 ICT" duration-ms="1036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginSuccess()[pri:0, instance:feature.Day06.LoginTest@49c386c8]" started-at="2025-06-16T22:21:19 ICT" name="testLoginSuccess" finished-at="2025-06-16T22:21:20 ICT" duration-ms="1105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginSuccess -->
-      </class> <!-- feature.Day06.LoginTest -->
-      <class name="feature.Day06.LoginMultiCaseV2Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:04 ICT" name="setUp" finished-at="2025-06-16T22:21:06 ICT" duration-ms="2430" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:06 ICT" name="testLoginFunctionality" data-provider="loginData" finished-at="2025-06-16T22:21:06 ICT" duration-ms="342" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[success]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:06 ICT" name="tearDown" finished-at="2025-06-16T22:21:07 ICT" duration-ms="144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:07 ICT" name="setUp" finished-at="2025-06-16T22:21:09 ICT" duration-ms="2069" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:09 ICT" name="testLoginFunctionality" data-provider="loginData" finished-at="2025-06-16T22:21:09 ICT" duration-ms="320" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[invalid_pass]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[failure]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Username and password do not match]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:09 ICT" name="tearDown" finished-at="2025-06-16T22:21:09 ICT" duration-ms="125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:09 ICT" name="setUp" finished-at="2025-06-16T22:21:11 ICT" duration-ms="2117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:11 ICT" name="testLoginFunctionality" data-provider="loginData" finished-at="2025-06-16T22:21:11 ICT" duration-ms="278" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[failure]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Password is required]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:11 ICT" name="tearDown" finished-at="2025-06-16T22:21:12 ICT" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:12 ICT" name="setUp" finished-at="2025-06-16T22:21:14 ICT" duration-ms="2853" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:14 ICT" name="testLoginFunctionality" data-provider="loginData" finished-at="2025-06-16T22:21:15 ICT" duration-ms="294" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalid_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[failure]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Username and password do not match]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:15 ICT" name="tearDown" finished-at="2025-06-16T22:21:15 ICT" duration-ms="129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:15 ICT" name="setUp" finished-at="2025-06-16T22:21:18 ICT" duration-ms="2947" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:18 ICT" name="testLoginFunctionality" data-provider="loginData" finished-at="2025-06-16T22:21:18 ICT" duration-ms="269" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[failure]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Username is required]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feature.Day06.LoginMultiCaseV2Test@1f0f1111]" started-at="2025-06-16T22:21:18 ICT" name="tearDown" finished-at="2025-06-16T22:21:18 ICT" duration-ms="148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- feature.Day06.LoginMultiCaseV2Test -->
+    <test started-at="2025-06-17T12:20:27 ICT" name="Surefire test" finished-at="2025-06-17T12:28:50 ICT" duration-ms="502705">
       <class name="assignment.RequestDemoTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:12:01 ICT" name="setUp" finished-at="2025-06-16T22:12:13 ICT" duration-ms="11392" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:20:28 ICT" name="setUp" finished-at="2025-06-17T12:20:37 ICT" duration-ms="9101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:12:13 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:12:29 ICT" duration-ms="16289" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:20:37 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:21:08 ICT" duration-ms="31154" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -285,15 +77,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:12:29 ICT" name="tearDown" finished-at="2025-06-16T22:12:29 ICT" duration-ms="296" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:21:08 ICT" name="tearDown" finished-at="2025-06-17T12:21:09 ICT" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:12:29 ICT" name="setUp" finished-at="2025-06-16T22:12:44 ICT" duration-ms="14504" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:21:09 ICT" name="setUp" finished-at="2025-06-17T12:21:29 ICT" duration-ms="20792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:12:44 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:12:59 ICT" duration-ms="15075" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:21:29 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:21:59 ICT" duration-ms="29502" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -359,15 +151,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:12:59 ICT" name="tearDown" finished-at="2025-06-16T22:12:59 ICT" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:21:59 ICT" name="tearDown" finished-at="2025-06-17T12:21:59 ICT" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:12:59 ICT" name="setUp" finished-at="2025-06-16T22:13:12 ICT" duration-ms="12672" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:21:59 ICT" name="setUp" finished-at="2025-06-17T12:22:13 ICT" duration-ms="13697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:13:12 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:13:24 ICT" duration-ms="12852" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:22:13 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:22:27 ICT" duration-ms="14451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -433,15 +225,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:13:24 ICT" name="tearDown" finished-at="2025-06-16T22:13:25 ICT" duration-ms="550" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:22:27 ICT" name="tearDown" finished-at="2025-06-17T12:22:28 ICT" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:13:25 ICT" name="setUp" finished-at="2025-06-16T22:13:39 ICT" duration-ms="13594" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:22:28 ICT" name="setUp" finished-at="2025-06-17T12:22:36 ICT" duration-ms="8218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:13:39 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:13:56 ICT" duration-ms="17724" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:22:36 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:22:51 ICT" duration-ms="15280" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -507,15 +299,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:13:56 ICT" name="tearDown" finished-at="2025-06-16T22:13:57 ICT" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:22:51 ICT" name="tearDown" finished-at="2025-06-17T12:22:51 ICT" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:13:57 ICT" name="setUp" finished-at="2025-06-16T22:14:14 ICT" duration-ms="17072" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:22:51 ICT" name="setUp" finished-at="2025-06-17T12:22:57 ICT" duration-ms="6020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:14:14 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:14:36 ICT" duration-ms="22312" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:22:57 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:23:21 ICT" duration-ms="23207" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -581,15 +373,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:14:36 ICT" name="tearDown" finished-at="2025-06-16T22:14:36 ICT" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:23:21 ICT" name="tearDown" finished-at="2025-06-17T12:23:21 ICT" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:14:36 ICT" name="setUp" finished-at="2025-06-16T22:14:50 ICT" duration-ms="13347" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:23:21 ICT" name="setUp" finished-at="2025-06-17T12:23:28 ICT" duration-ms="6940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:14:50 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:14:50 ICT" duration-ms="383" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:23:28 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:23:28 ICT" duration-ms="485" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -655,15 +447,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:14:50 ICT" name="tearDown" finished-at="2025-06-16T22:14:50 ICT" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:23:28 ICT" name="tearDown" finished-at="2025-06-17T12:23:29 ICT" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:14:50 ICT" name="setUp" finished-at="2025-06-16T22:15:03 ICT" duration-ms="12452" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:23:29 ICT" name="setUp" finished-at="2025-06-17T12:23:36 ICT" duration-ms="7324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:15:03 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:15:03 ICT" duration-ms="406" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:23:36 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:23:36 ICT" duration-ms="514" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -729,15 +521,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:15:03 ICT" name="tearDown" finished-at="2025-06-16T22:15:03 ICT" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:23:36 ICT" name="tearDown" finished-at="2025-06-17T12:23:37 ICT" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:15:03 ICT" name="setUp" finished-at="2025-06-16T22:15:13 ICT" duration-ms="10232" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:23:37 ICT" name="setUp" finished-at="2025-06-17T12:23:43 ICT" duration-ms="6070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:15:13 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:15:36 ICT" duration-ms="22202" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:23:43 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:24:06 ICT" duration-ms="23253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -803,15 +595,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:15:36 ICT" name="tearDown" finished-at="2025-06-16T22:15:36 ICT" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:24:06 ICT" name="tearDown" finished-at="2025-06-17T12:24:06 ICT" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:15:36 ICT" name="setUp" finished-at="2025-06-16T22:15:49 ICT" duration-ms="12734" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:24:06 ICT" name="setUp" finished-at="2025-06-17T12:24:11 ICT" duration-ms="4856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:15:49 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:16:11 ICT" duration-ms="22345" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:24:11 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:24:34 ICT" duration-ms="22635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -877,15 +669,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:16:11 ICT" name="tearDown" finished-at="2025-06-16T22:16:11 ICT" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:24:34 ICT" name="tearDown" finished-at="2025-06-17T12:24:34 ICT" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:16:11 ICT" name="setUp" finished-at="2025-06-16T22:16:25 ICT" duration-ms="13422" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:24:34 ICT" name="setUp" finished-at="2025-06-17T12:24:41 ICT" duration-ms="7134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:16:25 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:16:47 ICT" duration-ms="22190" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:24:41 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:25:04 ICT" duration-ms="22786" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -951,15 +743,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:16:47 ICT" name="tearDown" finished-at="2025-06-16T22:16:47 ICT" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:25:04 ICT" name="tearDown" finished-at="2025-06-17T12:25:04 ICT" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:16:47 ICT" name="setUp" finished-at="2025-06-16T22:16:58 ICT" duration-ms="11164" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:25:04 ICT" name="setUp" finished-at="2025-06-17T12:25:10 ICT" duration-ms="5445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:16:58 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:17:20 ICT" duration-ms="22247" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:25:10 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:25:32 ICT" duration-ms="22558" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1025,15 +817,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:17:20 ICT" name="tearDown" finished-at="2025-06-16T22:17:21 ICT" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:25:32 ICT" name="tearDown" finished-at="2025-06-17T12:25:33 ICT" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:17:21 ICT" name="setUp" finished-at="2025-06-16T22:17:28 ICT" duration-ms="7810" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:25:33 ICT" name="setUp" finished-at="2025-06-17T12:25:37 ICT" duration-ms="4803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:17:28 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:17:51 ICT" duration-ms="22081" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:25:37 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:26:00 ICT" duration-ms="22397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1099,15 +891,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:17:51 ICT" name="tearDown" finished-at="2025-06-16T22:17:51 ICT" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:26:00 ICT" name="tearDown" finished-at="2025-06-17T12:26:00 ICT" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:17:51 ICT" name="setUp" finished-at="2025-06-16T22:17:58 ICT" duration-ms="7113" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:26:00 ICT" name="setUp" finished-at="2025-06-17T12:26:06 ICT" duration-ms="6107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:17:58 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:18:20 ICT" duration-ms="22004" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:26:06 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:26:29 ICT" duration-ms="22477" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1173,15 +965,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:18:20 ICT" name="tearDown" finished-at="2025-06-16T22:18:20 ICT" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:26:29 ICT" name="tearDown" finished-at="2025-06-17T12:26:29 ICT" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:18:20 ICT" name="setUp" finished-at="2025-06-16T22:18:28 ICT" duration-ms="7514" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:26:29 ICT" name="setUp" finished-at="2025-06-17T12:26:35 ICT" duration-ms="5419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:18:28 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:18:50 ICT" duration-ms="21922" status="PASS">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:26:35 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:26:57 ICT" duration-ms="22959" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1247,15 +1039,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:18:50 ICT" name="tearDown" finished-at="2025-06-16T22:18:50 ICT" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:26:57 ICT" name="tearDown" finished-at="2025-06-17T12:26:58 ICT" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:18:50 ICT" name="setUp" finished-at="2025-06-16T22:19:01 ICT" duration-ms="10897" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:26:58 ICT" name="setUp" finished-at="2025-06-17T12:27:04 ICT" duration-ms="5728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:19:01 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:19:15 ICT" duration-ms="14290" status="FAIL">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:27:04 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:27:14 ICT" duration-ms="10771" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1325,7 +1117,7 @@
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 at org.testng.Assert.fail(Assert.java:111)
-at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1352,8 +1144,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -1365,15 +1157,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:19:15 ICT" name="tearDown" finished-at="2025-06-16T22:19:15 ICT" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:27:14 ICT" name="tearDown" finished-at="2025-06-17T12:27:15 ICT" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:19:15 ICT" name="setUp" finished-at="2025-06-16T22:19:19 ICT" duration-ms="3615" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:27:15 ICT" name="setUp" finished-at="2025-06-17T12:27:22 ICT" duration-ms="7192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:19:19 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:19:39 ICT" duration-ms="20493" status="FAIL">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:27:22 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:27:44 ICT" duration-ms="21672" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1443,7 +1235,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 at org.testng.Assert.fail(Assert.java:111)
-at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1470,8 +1262,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -1483,15 +1275,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:19:39 ICT" name="tearDown" finished-at="2025-06-16T22:19:40 ICT" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:27:44 ICT" name="tearDown" finished-at="2025-06-17T12:27:44 ICT" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:19:40 ICT" name="setUp" finished-at="2025-06-16T22:19:48 ICT" duration-ms="8221" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:27:44 ICT" name="setUp" finished-at="2025-06-17T12:27:49 ICT" duration-ms="5582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:19:48 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:19:59 ICT" duration-ms="11513" status="FAIL">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:27:49 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:27:59 ICT" duration-ms="9049" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1561,7 +1353,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 at org.testng.Assert.fail(Assert.java:111)
-at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -1587,8 +1379,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -1600,15 +1392,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:19:59 ICT" name="tearDown" finished-at="2025-06-16T22:20:00 ICT" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:27:59 ICT" name="tearDown" finished-at="2025-06-17T12:27:59 ICT" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:20:00 ICT" name="setUp" finished-at="2025-06-16T22:20:08 ICT" duration-ms="8283" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:27:59 ICT" name="setUp" finished-at="2025-06-17T12:28:04 ICT" duration-ms="5008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:20:08 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:20:19 ICT" duration-ms="10992" status="FAIL">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:28:04 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:28:27 ICT" duration-ms="22768" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1678,7 +1470,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 at org.testng.Assert.fail(Assert.java:111)
-at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -1704,8 +1496,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -1717,15 +1509,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:20:19 ICT" name="tearDown" finished-at="2025-06-16T22:20:19 ICT" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:28:27 ICT" name="tearDown" finished-at="2025-06-17T12:28:27 ICT" duration-ms="330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:20:19 ICT" name="setUp" finished-at="2025-06-16T22:20:26 ICT" duration-ms="7057" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:28:27 ICT" name="setUp" finished-at="2025-06-17T12:28:36 ICT" duration-ms="8993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:20:26 ICT" name="testForm" data-provider="formData" finished-at="2025-06-16T22:21:00 ICT" duration-ms="33420" status="FAIL">
+        <test-method signature="testForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:28:36 ICT" name="testForm" data-provider="formData" finished-at="2025-06-17T12:28:49 ICT" duration-ms="13337" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1795,7 +1587,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 at org.testng.Assert.fail(Assert.java:111)
-at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -1821,8 +1613,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -1834,7 +1626,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@7219ec67]" started-at="2025-06-16T22:21:00 ICT" name="tearDown" finished-at="2025-06-16T22:21:00 ICT" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.RequestDemoTest@3c72f59f]" started-at="2025-06-17T12:28:49 ICT" name="tearDown" finished-at="2025-06-17T12:28:50 ICT" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

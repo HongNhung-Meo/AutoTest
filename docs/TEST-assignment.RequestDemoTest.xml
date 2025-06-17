@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="560.815" tests="29" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="assignment.RequestDemoTest" time="503.445" tests="19" errors="0" skipped="0" failures="5">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,8 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="F:\Auto\Env\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\dmToan\AppData\Local\Temp\surefire11019126988060782218\surefirebooter-20250616221158925_3.jar C:\Users\dmToan\AppData\Local\Temp\surefire11019126988060782218 2025-06-16T22-11-58_605-jvmRun1 surefire-20250616221158925_1tmp surefire_0-20250616221158925_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\dmToan\AppData\Local\Temp\surefire7563551713042920154\surefirebooter-20250617122026672_3.jar C:\Users\dmToan\AppData\Local\Temp\surefire7563551713042920154 2025-06-17T12-20-26_439-jvmRun1 surefire-20250617122026672_1tmp surefire_0-20250617122026672_2tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="RequestDemoTest"/>
     <property name="surefire.test.class.path" value="F:\Auto\Auto27\AT27\target\test-classes;F:\Auto\Auto27\AT27\target\classes;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.19.1\selenium-api-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.19.1\selenium-chrome-driver-4.19.1.jar;C:\Users\dmToan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.19.1\selenium-chromium-driver-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.19.1\selenium-json-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.19.1\selenium-manager-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.19.1\selenium-devtools-v121-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.19.1\selenium-devtools-v122-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.19.1\selenium-devtools-v123-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.19.1\selenium-devtools-v85-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.19.1\selenium-edge-driver-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.19.1\selenium-firefox-driver-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.19.1\selenium-http-4.19.1.jar;C:\Users\dmToan\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.19.1\selenium-ie-driver-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.19.1\selenium-remote-driver-4.19.1.jar;C:\Users\dmToan\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\dmToan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dmToan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dmToan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dmToan\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dmToan\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\dmToan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-api\1.36.0\opentelemetry-api-1.36.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-context\1.36.0\opentelemetry-context-1.36.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.36.0\opentelemetry-exporter-logging-1.36.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.36.0\opentelemetry-sdk-common-1.36.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.36.0\opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.36.0\opentelemetry-sdk-extension-autoconfigure-1.36.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.36.0-alpha\opentelemetry-api-events-1.36.0-alpha.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.36.0\opentelemetry-sdk-trace-1.36.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.36.0-alpha\opentelemetry-extension-incubator-1.36.0-alpha.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.36.0\opentelemetry-sdk-1.36.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.36.0\opentelemetry-sdk-metrics-1.36.0.jar;C:\Users\dmToan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.36.0\opentelemetry-sdk-logs-1.36.0.jar;C:\Users\dmToan\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.19.1\selenium-os-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.19.1\selenium-safari-driver-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.19.1\selenium-support-4.19.1.jar;C:\Users\dmToan\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\dmToan\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\dmToan\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\dmToan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dmToan\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\dmToan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\dmToan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\dmToan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\dmToan\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\dmToan\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\dmToan\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\dmToan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dmToan\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\dmToan\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\dmToan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\dmToan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\dmToan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dmToan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\dmToan"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\dmToan\AppData\Local\Temp\surefire11019126988060782218\surefirebooter-20250616221158925_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\dmToan\AppData\Local\Temp\surefire7563551713042920154\surefirebooter-20250617122026672_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,111 +57,111 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, Vietnam, , Test Analytics &amp; AI Insights, Comment1, true, success, ](1)" classname="assignment.RequestDemoTest" time="16.288">
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, Vietnam, , Test Analytics &amp; AI Insights, Comment1, true, success, ](1)" classname="assignment.RequestDemoTest" time="31.155">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jun 16, 2025 10:12:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 17, 2025 12:20:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:12:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:20:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, Vietnam, , Test Analytics &amp; AI Insights, , true, success, ](2)" classname="assignment.RequestDemoTest" time="15.074">
-    <system-err><![CDATA[Jun 16, 2025 10:12:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, Vietnam, , Test Analytics &amp; AI Insights, , true, success, ](2)" classname="assignment.RequestDemoTest" time="29.502">
+    <system-err><![CDATA[Jun 17, 2025 12:21:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:12:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:21:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, Vietnam, , Test Analytics &amp; AI Insights, Comment1, false, success, ](3)" classname="assignment.RequestDemoTest" time="12.851">
-    <system-err><![CDATA[Jun 16, 2025 10:13:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, Vietnam, , Test Analytics &amp; AI Insights, Comment1, false, success, ](3)" classname="assignment.RequestDemoTest" time="14.45">
+    <system-err><![CDATA[Jun 17, 2025 12:22:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:13:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:22:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, United States, AK, Test Analytics &amp; AI Insights, Comment2, true, success, ](4)" classname="assignment.RequestDemoTest" time="17.724">
-    <system-err><![CDATA[Jun 16, 2025 10:13:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, United States, AK, Test Analytics &amp; AI Insights, Comment2, true, success, ](4)" classname="assignment.RequestDemoTest" time="15.282">
+    <system-err><![CDATA[Jun 17, 2025 12:22:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:13:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:22:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, United States, , Test Analytics &amp; AI Insights, Comment3, true, failure, This field is required.](5)" classname="assignment.RequestDemoTest" time="22.312">
-    <system-err><![CDATA[Jun 16, 2025 10:13:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590444, United States, , Test Analytics &amp; AI Insights, Comment3, true, failure, This field is required.](5)" classname="assignment.RequestDemoTest" time="23.199">
+    <system-err><![CDATA[Jun 17, 2025 12:22:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:13:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:22:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[invalid.com, , , BFD.JSC, , , , Test Analytics &amp; AI Insights, Comment4, true, failure, Must be valid email.](6)" classname="assignment.RequestDemoTest" time="0.384">
-    <system-err><![CDATA[Jun 16, 2025 10:14:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[invalid.com, , , BFD.JSC, , , , Test Analytics &amp; AI Insights, Comment4, true, failure, Must be valid email.](6)" classname="assignment.RequestDemoTest" time="0.485">
+    <system-err><![CDATA[Jun 17, 2025 12:23:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:14:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:23:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[, , , BFD.JSC, , , , Test Analytics &amp; AI Insights, Comment5, true, failure, Must be valid email.](7)" classname="assignment.RequestDemoTest" time="0.405">
-    <system-err><![CDATA[Jun 16, 2025 10:14:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[, , , BFD.JSC, , , , Test Analytics &amp; AI Insights, Comment5, true, failure, Must be valid email.](7)" classname="assignment.RequestDemoTest" time="0.514">
+    <system-err><![CDATA[Jun 17, 2025 12:23:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:14:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:23:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, , Hà, BFD.JSC, 0904590444, Vietnam, , Test Analytics &amp; AI Insights, Comment6, true, failure, This field is required.](8)" classname="assignment.RequestDemoTest" time="22.206">
-    <system-err><![CDATA[Jun 16, 2025 10:15:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, , Hà, BFD.JSC, 0904590444, Vietnam, , Test Analytics &amp; AI Insights, Comment6, true, failure, This field is required.](8)" classname="assignment.RequestDemoTest" time="23.261">
+    <system-err><![CDATA[Jun 17, 2025 12:23:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:15:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:23:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, , BFD.JSC, 0904590445, Vietnam, , Test Analytics &amp; AI Insights, Comment7, true, failure, This field is required.](9)" classname="assignment.RequestDemoTest" time="22.345">
-    <system-err><![CDATA[Jun 16, 2025 10:15:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, , BFD.JSC, 0904590445, Vietnam, , Test Analytics &amp; AI Insights, Comment7, true, failure, This field is required.](9)" classname="assignment.RequestDemoTest" time="22.636">
+    <system-err><![CDATA[Jun 17, 2025 12:24:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:15:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:24:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, , 0904590446, Vietnam, , Test Analytics &amp; AI Insights, Comment8, true, failure, This field is required.](10)" classname="assignment.RequestDemoTest" time="22.192">
-    <system-err><![CDATA[Jun 16, 2025 10:16:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, , 0904590446, Vietnam, , Test Analytics &amp; AI Insights, Comment8, true, failure, This field is required.](10)" classname="assignment.RequestDemoTest" time="22.786">
+    <system-err><![CDATA[Jun 17, 2025 12:24:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:16:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:24:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, , Vietnam, , Test Analytics &amp; AI Insights, Comment9, true, failure, Must be a phone number.](11)" classname="assignment.RequestDemoTest" time="22.26">
-    <system-err><![CDATA[Jun 16, 2025 10:16:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, , Vietnam, , Test Analytics &amp; AI Insights, Comment9, true, failure, Must be a phone number.](11)" classname="assignment.RequestDemoTest" time="22.555">
+    <system-err><![CDATA[Jun 17, 2025 12:25:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:16:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:25:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, invalid_phone, Vietnam, , Test Analytics &amp; AI Insights, Comment10, true, failure, Must be a phone number.](12)" classname="assignment.RequestDemoTest" time="22.084">
-    <system-err><![CDATA[Jun 16, 2025 10:17:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, invalid_phone, Vietnam, , Test Analytics &amp; AI Insights, Comment10, true, failure, Must be a phone number.](12)" classname="assignment.RequestDemoTest" time="22.401">
+    <system-err><![CDATA[Jun 17, 2025 12:25:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:17:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:25:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590445, , , Test Analytics &amp; AI Insights, Comment11, true, failure, This field is required.](13)" classname="assignment.RequestDemoTest" time="22.007">
-    <system-err><![CDATA[Jun 16, 2025 10:17:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590445, , , Test Analytics &amp; AI Insights, Comment11, true, failure, This field is required.](13)" classname="assignment.RequestDemoTest" time="22.477">
+    <system-err><![CDATA[Jun 17, 2025 12:26:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:17:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:26:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590446, Vietnam, , , Comment12, true, failure, This field is required.](14)" classname="assignment.RequestDemoTest" time="21.922">
-    <system-err><![CDATA[Jun 16, 2025 10:18:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904590446, Vietnam, , , Comment12, true, failure, This field is required.](14)" classname="assignment.RequestDemoTest" time="22.959">
+    <system-err><![CDATA[Jun 17, 2025 12:26:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:18:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:26:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, 123, Hà, BFD.JSC, 0904590447, Vietnam, , Test Analytics &amp; AI Insights, Comment13, true, failure, This field is required.](15)" classname="assignment.RequestDemoTest" time="14.297">
+  <testcase name="testForm[haht@bfd.vn, 123, Hà, BFD.JSC, 0904590447, Vietnam, , Test Analytics &amp; AI Insights, Comment13, true, failure, This field is required.](15)" classname="assignment.RequestDemoTest" time="10.792">
     <failure message="Form submitted or error message missing when it should have failed!" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 	at org.testng.Assert.fail(Assert.java:111)
-	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -187,8 +188,8 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -198,16 +199,16 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
     <system-out><![CDATA[BUG: Expected failure but form submitted successfully!
 BUG UI: No error message displayed! Expected: This field is required.
 ]]></system-out>
-    <system-err><![CDATA[Jun 16, 2025 10:18:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 17, 2025 12:26:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:18:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:26:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, 123, BFD.JSC, 0904590448, Vietnam, , Test Analytics &amp; AI Insights, Comment14, true, failure, This field is required.](16)" classname="assignment.RequestDemoTest" time="20.497">
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, 123, BFD.JSC, 0904590448, Vietnam, , Test Analytics &amp; AI Insights, Comment14, true, failure, This field is required.](16)" classname="assignment.RequestDemoTest" time="21.68">
     <failure message="Form submitted or error message missing when it should have failed!" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 	at org.testng.Assert.fail(Assert.java:111)
-	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -234,8 +235,8 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -245,16 +246,16 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
     <system-out><![CDATA[BUG: Expected failure but form submitted successfully!
 BUG UI: No error message displayed! Expected: This field is required.
 ]]></system-out>
-    <system-err><![CDATA[Jun 16, 2025 10:19:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 17, 2025 12:27:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:19:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:27:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, 123, 0904590449, Vietnam, , Test Analytics &amp; AI Insights, Comment15, true, failure, This field is required.](17)" classname="assignment.RequestDemoTest" time="11.515">
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, 123, 0904590449, Vietnam, , Test Analytics &amp; AI Insights, Comment15, true, failure, This field is required.](17)" classname="assignment.RequestDemoTest" time="9.049">
     <failure message="Form submitted or error message missing when it should have failed!" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 	at org.testng.Assert.fail(Assert.java:111)
-	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -280,8 +281,8 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -291,16 +292,16 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
     <system-out><![CDATA[BUG: Expected failure but form submitted successfully!
 BUG UI: No error message displayed! Expected: This field is required.
 ]]></system-out>
-    <system-err><![CDATA[Jun 16, 2025 10:19:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 17, 2025 12:27:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:19:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:27:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904, Vietnam, , Test Analytics &amp; AI Insights, Comment16, true, failure, Must be a phone number.](18)" classname="assignment.RequestDemoTest" time="10.993">
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 0904, Vietnam, , Test Analytics &amp; AI Insights, Comment16, true, failure, Must be a phone number.](18)" classname="assignment.RequestDemoTest" time="22.78">
     <failure message="Form submitted or error message missing when it should have failed!" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 	at org.testng.Assert.fail(Assert.java:111)
-	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -326,8 +327,8 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -337,16 +338,16 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
     <system-out><![CDATA[BUG: Expected failure but form submitted successfully!
 BUG UI: No error message displayed! Expected: Must be a phone number.
 ]]></system-out>
-    <system-err><![CDATA[Jun 16, 2025 10:20:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 17, 2025 12:28:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:20:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:28:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 09045904511, Vietnam, , Test Analytics &amp; AI Insights, Comment17, true, failure, Must be a phone number.](19)" classname="assignment.RequestDemoTest" time="33.423">
+  <testcase name="testForm[haht@bfd.vn, Hoàng Thái, Hà, BFD.JSC, 09045904511, Vietnam, , Test Analytics &amp; AI Insights, Comment17, true, failure, Must be a phone number.](19)" classname="assignment.RequestDemoTest" time="13.345">
     <failure message="Form submitted or error message missing when it should have failed!" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Form submitted or error message missing when it should have failed!
 	at org.testng.Assert.fail(Assert.java:111)
-	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:184)
+	at assignment.RequestDemoTest.testForm(RequestDemoTest.java:165)
 	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -372,8 +373,8 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -383,63 +384,9 @@ WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need t
     <system-out><![CDATA[BUG: Expected failure but form submitted successfully!
 BUG UI: No error message displayed! Expected: Must be a phone number.
 ]]></system-out>
-    <system-err><![CDATA[Jun 16, 2025 10:20:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 17, 2025 12:28:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:20:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="testLoginWithEmptyUsername" classname="feature.Day06.LoginMultiCaseTest" time="1.563">
-    <system-err><![CDATA[Jun 16, 2025 10:21:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:21:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="testLoginWithInvalidPassword" classname="feature.Day06.LoginMultiCaseTest" time="0.258"/>
-  <testcase name="testLoginWithInvalidUsername" classname="feature.Day06.LoginMultiCaseTest" time="0.21"/>
-  <testcase name="testLoginWithValidCredentials" classname="feature.Day06.LoginMultiCaseTest" time="0.284"/>
-  <testcase name="testLoginFunctionality[standard_user, secret_sauce, success, ](1)" classname="feature.Day06.LoginMultiCaseV2Test" time="0.342">
-    <system-err><![CDATA[Jun 16, 2025 10:21:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:21:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="testLoginFunctionality[standard_user, invalid_pass, failure, Username and password do not match](2)" classname="feature.Day06.LoginMultiCaseV2Test" time="0.32">
-    <system-err><![CDATA[Jun 16, 2025 10:21:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:21:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="testLoginFunctionality[standard_user, , failure, Password is required](3)" classname="feature.Day06.LoginMultiCaseV2Test" time="0.277">
-    <system-err><![CDATA[Jun 16, 2025 10:21:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:21:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="testLoginFunctionality[invalid_user, secret_sauce, failure, Username and password do not match](4)" classname="feature.Day06.LoginMultiCaseV2Test" time="0.294">
-    <system-err><![CDATA[Jun 16, 2025 10:21:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:21:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="testLoginFunctionality[, secret_sauce, failure, Username is required](5)" classname="feature.Day06.LoginMultiCaseV2Test" time="0.267">
-    <system-err><![CDATA[Jun 16, 2025 10:21:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:21:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="testLoginSuccess" classname="feature.Day06.LoginTest" time="1.107">
-    <system-out><![CDATA[Đăng nhập thành công
-]]></system-out>
-    <system-err><![CDATA[Jun 16, 2025 10:21:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 137
-Jun 16, 2025 10:21:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 17, 2025 12:28:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
