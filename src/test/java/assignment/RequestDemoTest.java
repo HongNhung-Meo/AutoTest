@@ -51,7 +51,7 @@ public class RequestDemoTest {
     }
 
     @Test(dataProvider = "formData")
-    public void testForm(String email, String firstName, String lastName, String company, String phone, String country, String state, String interest, String comment, boolean checkbox, String expectedResult, String expectedErrorMsg) {
+    public void validateRequestDemoFormSubmission(String email, String firstName, String lastName, String company, String phone, String country, String state, String interest, String comment, boolean checkbox, String expectedResult, String expectedErrorMsg) {
         // check title & URL đầu trang
         Assert.assertEquals(driver.getTitle(), "Request a Sauce Labs Demo", "Title mismatch!");
         Assert.assertEquals(driver.getCurrentUrl(), "https://saucelabs.com/request-demo", "URL mismatch!");
@@ -169,7 +169,7 @@ public class RequestDemoTest {
 
     private void fillInput(WebElement element, String value) {
         element.clear();
-        element.sendKeys(value);
+        element.sendKeys(value == null ? "" : value);
     }
 
     public void selectDropdownByVisibleText(WebElement dropdownElement, String visibleText) {
